@@ -66,7 +66,7 @@ __Adding a button on toolbar__
 	button.setIcon(QIcon("PATH-TO-FILE"))
 	iface.addToolBarWidget(button)
 	
-	OR (Using iface)
+OR (Using iface)
 	
 	from PyQt4.QtGui import QToolButton, QIcon
 	iface.toolButton = QToolButton()
